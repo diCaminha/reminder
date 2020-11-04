@@ -1,14 +1,11 @@
 import React from 'react';
+import FormReminder from './components/FormReminder';
 import ListReminders from './components/ListReminders';
 
 function App() {
   return (
     <section>
-      <form>
-        <input type="textarea" placeholder="Title"/>
-        <textarea placeholder="Type some to reminder..."/>
-        <button>Send</button>
-      </form>
+      <FormReminder/>
       <ListReminders/>
     </section>
   );
