@@ -1,9 +1,17 @@
 import React from 'react';
+import ListReminders from './components/ListReminders';
+
 function App() {
   return (
-   <h1>Meu app react</h1>
+    <section>
+      <form>
+        <input type="textarea" placeholder="Title"/>
+        <textarea placeholder="Type some to reminder..."/>
+        <button>Send</button>
+      </form>
+      <ListReminders/>
+    </section>
   );
 }
-//react -> lib
-//React -> ecossistema
+
 export default App;
